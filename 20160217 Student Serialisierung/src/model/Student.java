@@ -18,7 +18,7 @@ public class Student implements Comparable<Student>, Serializable{
 	private String firstname;
 	private String lname;
 	
-	private transient int internalUsedNumber; // will not serialized
+	private int internalUsedNumber; // will not serialized
 	/**
 	 * @param firstname
 	 * @param lname
